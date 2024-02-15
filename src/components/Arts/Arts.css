@@ -1,0 +1,30 @@
+.art-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .art-item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .art-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .art-details {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .description {
+    font-style: italic;
+    font-size: 20px;
+  }
+  

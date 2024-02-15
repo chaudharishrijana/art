@@ -1,0 +1,152 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-size: cover;
+  background-position: center;
+  color: rgba(242, 242, 248, 0.788);
+}
+.hero-left {
+  flex: 1;
+  max-width: 60%;
+}
+
+.hero-image {
+  width: 110%; 
+  margin-bottom: 20px; 
+}
+.hero-content{
+ position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+ .hero-text-wrapper {
+  background-image: url("./background.png");
+  background-size: cover;
+  width: 1275px;
+  height: 350px;
+   background-color:rgba(0, 0, 0, 0.5);
+padding: 20px;
+border-radius: 1px;
+text-align: center;
+position: relative;
+
+box-sizing: border-box;
+
+
+
+} 
+.hero-text-wrapper h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-text-wrapper {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.website-introduction {
+ 
+  color: rgb(14, 12, 12);
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  width: 1100px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top:20px;
+  margin-bottom: 20px;
+  font-size:15px;
+  text-align: center;
+}
+
+.shop-by-category{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:20px;
+  color: black;
+}
+
+.shop-by-category h3{
+  margin: 30px;
+  font-size:30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.category-boxes{
+  display:flex;
+  gap: 30px;
+}
+ 
+.category-box{
+  margin-left:50px;
+  padding:10px 60px;
+  background-color:white;
+  border-radius:20px;
+  border:1.5px solid black;
+  
+  
+}
+
+.category-box p{
+  margin:1;
+}
+
+
+
+
+
+
+
+.hero-hand-icon {
+  display:flex;
+  align-items:center;
+  gap:20px;
+  
+}
+
+.hero-latest-btn { 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width:310px;
+  height:70px;
+  border-radius: 75px;
+  margin-top: 30px;
+  
+
+  font-size: 22px;
+  font-weight:500;
+
+  
+}
+
+.hero-right {
+  display:flex;
+  align-items:center;
+  gap:20px;
+  
+}
+.product-image{
+align-items:center;
+
+
+}
+
+.featured-collection h2{
+  display: flex;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration-color: black;
+  text-align: center;
+}
+
+.hr{
+  border-width: 1px;
+}
